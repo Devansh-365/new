@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Devansh-365.github.io/divineAutoGas2",
   "name": "divineautogas",
   "version": "0.1.0",
   "private": true,
@@ -6,13 +7,20 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
+    "styled-components": "^5.3.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
